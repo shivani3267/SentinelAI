@@ -97,7 +97,7 @@ const Dashboard = () => {
         position: "bottom",
         labels: { 
           color: "#94a3b8", 
-          font: { size: 11 } 
+          font: { size: 10 } 
         },
       },
     },
@@ -176,7 +176,7 @@ const Dashboard = () => {
     <div className="bg-slate-950 text-white min-h-screen relative overflow-hidden">
       <Navbar />
 
-      {/* Decorative Brand Background Glow Effects */}
+      {/* Decorative Glow Effects */}
       <div className="absolute top-24 left-1/4 w-96 h-96 bg-blue-600/10 blur-[150px] rounded-full pointer-events-none" />
       <div className="absolute bottom-20 right-1/4 w-96 h-96 bg-cyan-600/10 blur-[150px] rounded-full pointer-events-none" />
 
@@ -190,7 +190,7 @@ const Dashboard = () => {
           </h1>
         </header>
 
-        {/* Glassmorphic KPI Cards Grid */}
+        {/*  KPI Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mb-12">
           <Card title="Total Analyses" value={overview.totalAnalyses} />
           <Card title="Total Scams" value={overview.totalScams} accent color="text-red-400" />
@@ -202,7 +202,7 @@ const Dashboard = () => {
           <Card title="Safe Messages" value={overview.totalSafeMessages} color="text-emerald-400" />
         </div>
 
-        {/* Compressed Charts Grid Layout */}
+        {/*  Charts Grid Layout */}
         <div className="grid lg:grid-cols-2 gap-6">
           
           {/* Card 1: Scam Categories */}

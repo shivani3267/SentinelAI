@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   ArrowRight,
   ShieldAlert,
@@ -114,7 +115,7 @@ const Hero = () => {
                 </div>
               </div>
 
-              <div className="mt-8 p-4 rounded-xl bg-white/5 border border-white/5">
+              <div className="mt-7 p-4 rounded-xl bg-white/5 border border-white/5">
                 <p className="text-slate-400 text-sm">
                   Threat Confidence Score
                 </p>
@@ -127,7 +128,7 @@ const Hero = () => {
               <button
                 className="
                   w-full
-                  mt-8
+                  mt-7
                   py-4
                   rounded-xl
                   bg-blue-600
@@ -136,7 +137,7 @@ const Hero = () => {
                   font-semibold
                 "
               >
-                ScamAnalyser
+                <Link to="/text-analysis">ScamAnalyser</Link>
               </button>
             </div>
           </div>
