@@ -80,17 +80,13 @@ npm run dev
 ```
 ## ProjectWorking
 User Input <br>
-     |<br>
-     ↓<br>
+    ↓<br>
 SentinelAI Analyzer <br>
-     |<br>
-     ↓
+    ↓ <br>
 AI Model Processing <br>
-     |<br>
-     ↓<br>
+    <br>
 Threat Detection <br>
-     |<br>
-     ↓ <br>
+    ↓ <br>
 Security Report <br>
 
 
