@@ -1,9 +1,11 @@
-import connectDB from "./config/connectDB"
-import dotenv from "dotenv";
+import "dotenv/config";
+import connectDB from "./config/connectDB.js"
 import express from "express";
 import cors from "cors";
+import dashboard from "./routes/dashboardroute.js";
+import analyzeRoutes from "./routes/analyzeroute.js"
 
-dotenv.config();
+// dotenv.config();
 
 const app = express();
 
@@ -22,12 +24,19 @@ app.use(
   })
 );
 
+app.use("/api/dashboard",dashboard);
+app.use("/api/analyze", analyzeRoutes);
+
+
+
+
+
+
 const PORT = process.env.PORT || 3000;
 
 const startServer = async () => {
   try {
-    await connectDb();
-
+    await connectDB();
     app.listen(PORT, () => {
       console.log(`Server is running on port ${PORT}`);
     });
