@@ -79,19 +79,19 @@ npm install
 npm run dev
 ```
 ## ProjectWorking
-User Input
-     |
+User Input <br>
+     |<br>
+     ↓<br>
+SentinelAI Analyzer <br>
+     |<br>
      ↓
-SentinelAI Analyzer
-     |
-     ↓
-AI Model Processing
-     |
-     ↓
-Threat Detection
-     |
-     ↓
-Security Report
+AI Model Processing <br>
+     |<br>
+     ↓<br>
+Threat Detection <br>
+     |<br>
+     ↓ <br>
+Security Report <br>
 
 
 ## 👨‍💻 Author
