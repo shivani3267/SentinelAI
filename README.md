@@ -84,7 +84,7 @@ User Input <br>
 SentinelAI Analyzer <br>
     ↓ <br>
 AI Model Processing <br>
-    <br>
+    ↓ <br>
 Threat Detection <br>
     ↓ <br>
 Security Report <br>
